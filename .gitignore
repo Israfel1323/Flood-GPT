@@ -1,0 +1,36 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large generated geospatial data
+data/raw/
+data/processed/

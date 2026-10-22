@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Flood Intelligence System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+    <style>
+
+        #map { height: 60vh; }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="header">Flood Intelligence System</div>
+
+<div id="map"></div>
+
+<div class="controls">
+
+    <input id="message" type="text" placeholder="Enter query">
+
+    <button id="sendBtn">Analyze</button>
+
+</div>
+
+<div id="output"></div>
+
+<!--LOAD ORDER (CRITICAL) -->
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- HEATMAP PLUGIN (THIS FIXES YOUR ERROR) -->
+
+<script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
+<!-- YOUR SCRIPT LAST -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

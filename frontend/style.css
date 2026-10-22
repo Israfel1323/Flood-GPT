@@ -1,0 +1,159 @@
+body {
+
+    margin: 0;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: #0f1115;
+
+    color: #e6e6e6;
+
+}
+
+/* Header */
+
+.header {
+
+    padding: 16px;
+
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    background: #121418;
+
+    border-bottom: 1px solid #222;
+
+}
+
+/* Layout container */
+
+.container {
+
+    width: 95%;
+
+    margin: 20px auto;
+
+}
+
+/* Map */
+
+#map {
+
+    height: 60vh;
+
+    width: 100%;
+
+    border-radius: 8px;
+
+    border: 1px solid #222;
+
+}
+
+/* Controls */
+
+.controls {
+
+    display: flex;
+
+    margin-top: 15px;
+
+    gap: 10px;
+
+}
+
+#message {
+
+    flex: 1;
+
+    padding: 12px;
+
+    background: #1a1d23;
+
+    border: 1px solid #333;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    outline: none;
+
+}
+
+#message:focus {
+
+    border-color: #555;
+
+}
+
+button {
+
+    padding: 12px 20px;
+
+    background: #2c313a;
+
+    border: none;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: background 0.2s;
+
+}
+
+button:hover {
+
+    background: #3a404a;
+
+}
+
+/* Output panel */
+
+#output {
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    background: #121418;
+
+    border: 1px solid #222;
+
+    border-radius: 8px;
+
+    line-height: 1.6;
+
+    white-space: pre-line;
+
+    font-size: 14px;
+
+}
+
+/* Leaflet popup fix */
+
+.leaflet-popup-content {
+
+    color: #000;
+
+}
+
+/* Legend styling */
+
+.info.legend {
+
+    background: #121418 !important;
+
+    color: #e6e6e6;
+
+    padding: 10px;
+
+    border-radius: 6px;
+
+    border: 1px solid #333;
+
+    font-size: 12px;
+
+}

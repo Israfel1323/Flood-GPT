@@ -1,0 +1,11 @@
+xgboost
+pandas
+numpy
+flask
+scikit-learn
+requests
+earthengine-api
+geemap
+langchain
+openai
+joblib
